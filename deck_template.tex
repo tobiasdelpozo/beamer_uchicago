@@ -94,7 +94,9 @@
 	\leavevmode%
 \hbox{%
 		\setbeamercolor{section in toc}{fg=maroon}
-	  \begin{beamercolorbox}[wd=\paperwidth,ht=2.25ex,dp=1ex,center]{text}
+		\setbeamercolor{section in toc shaded}{fg=greystone}
+		\setbeamertemplate{section in toc shaded}[default][100]
+	  \begin{beamercolorbox}[wd=\paperwidth,ht=2.25ex,dp=1ex,center]{}
 		\insertsectionnavigationhorizontal{\paperwidth}{}{\hfill\hfill}
 	\end{beamercolorbox}
 }
